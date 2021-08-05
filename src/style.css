@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #064420;
+  --accent-color: #e4efe7;
+  --bkgrd-color: #fdfaf6;
+  --bkgrd-accent-color: #faf1e6;
+}
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: var(--bkgrd-color);
+}
+h1 {
+  font-family: "Nanum Myeongjo", serif;
+  color: var(--primary-color);
+}
