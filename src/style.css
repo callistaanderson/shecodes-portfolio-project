@@ -7,6 +7,7 @@
 body {
   font-family: "Nanum Gothic", sans-serif;
   background-color: var(--bkgrd-color);
+  text-align: center;
 }
 h1 {
   font-family: "Nanum Myeongjo", serif;
