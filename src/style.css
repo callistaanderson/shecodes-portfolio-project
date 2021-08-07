@@ -5,9 +5,15 @@
   --bkgrd-accent-color: #faf1e6;
 }
 body {
+  max-width: 1250px;
+  margin: 0 auto;
   font-family: "Nanum Gothic", sans-serif;
   background-color: var(--bkgrd-color);
   text-align: center;
+}
+.hero {
+  background-color: var(--bkgrd-accent-color);
+  padding: 200px 0;
 }
 h1 {
   font-family: "Nanum Myeongjo", serif;
