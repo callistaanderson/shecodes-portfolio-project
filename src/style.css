@@ -5,11 +5,17 @@
   --bkgrd-accent-color: #faf1e6;
 }
 body {
-  max-width: 1250px;
+  max-width: 992px;
   margin: 0 auto;
   font-family: "Nanum Gothic", sans-serif;
   background-color: var(--bkgrd-color);
   text-align: center;
+}
+.navbar {
+  background-color: var(--bkgrd-accent-color);
+}
+.navbar-brand {
+  font-family: "Nanum Myeongjo", serif;
 }
 .hero {
   background-color: var(--bkgrd-accent-color);
@@ -33,7 +39,7 @@ p {
 .main-btn {
   padding: 18px 30px;
   background-color: var(--accent-color);
-  box-shadow: 5px 5px 30px 0 rgba(174, 174, 192, 0.4),
+  box-shadow: 5px 5px 10px 0 rgba(174, 174, 192, 0.4),
     -5px -5px 30px 0 rgba(253, 250, 246, 1),
     inset -5px -5px 10px 0 rgba(174, 174, 192, 0.25),
     inset 5px 5px 10px 0 rgba(253, 250, 246, 1);
@@ -42,9 +48,17 @@ p {
   color: var(--primary-color);
   padding: 10px 15px;
   border-radius: 8px;
-  background-color: rgba(228, 239, 231, 0.05);
-  box-shadow: 5px 5px 30px 0 rgba(174, 174, 192, 0.4),
+  background-color: var(--bkgrd-color);
+  box-shadow: 5px 5px 10px 0 rgba(174, 174, 192, 0.4),
     -5px -5px 30px 0 rgba(255, 255, 255, 1),
     inset -5px -5px 10px 0 rgba(174, 174, 192, 0.25),
     inset 5px 5px 10px 0 rgba(255, 255, 255, 1);
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+  }
+  .project-img {
+    display: none;
+  }
 }
