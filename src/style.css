@@ -61,4 +61,14 @@ p {
   .project-img {
     display: none;
   }
+  .contact-icons {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-icons {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 45px;
+  }
 }
