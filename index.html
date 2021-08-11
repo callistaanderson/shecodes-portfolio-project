@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <script
@@ -30,7 +30,9 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-md navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CA</a>
+        <a class="navbar-brand" href="/">
+          <img src="/img/CA.gif" class="rounded" width="50" height="50" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,29 +55,26 @@
       </div>
     </nav>
     <div class="hero">
-      <h1 class="pt-5">Callista Anderson</h1>
-      <p>Front-end Developer, based in Canada.</p>
+      <h1>Callista Anderson</h1>
+      <p class="text-uppercase">Front-end Developer, based in Canada.</p>
     </div>
     <div class="container mt-5" id="about-section">
       <div class="row">
         <div class="col-md-6">
           <img
-            src="https://via.placeholder.com/300x400.png?text=Photo+of+Callista+Anderson"
+            src="/img/solo-coder.png"
             class="img-fluid"
             alt="Photo of Callista Anderson"
           />
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 mt-4">
           <h2>About Me</h2>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by Far far away,
-            behind the word mountains, far from the countries Vokalia and
-            Consonantia, there live the blind texts. Separated they live in
-            Bookmarksgrove right at the coast of the Semantics, a large language
-            ocean. A small river named Duden flows by
+            My name is Callista. I am a free-lance front-end developer and
+            aspiring web designer based in Canada. I build webpages for
+            businesses from scratch and have completed multiple SheCodes coding
+            workshops for women. I balance this with a part-time work from home
+            admistrative job, all while being a mother to two amazing children.
           </p>
         </div>
       </div>
@@ -140,22 +139,47 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="d-flex justify-content-center mt-5 mb-5">
-        <a class="btn contact-btn m-3" href="..." title="Facebook Link"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a class="btn contact-btn m-3" href="..." title="Linkedin Link"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a class="btn contact-btn m-3" href="..." title="GitHub Link"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a class="btn contact-btn m-3" href="..." title="Email Link"
-          ><i class="far fa-envelope"></i
-        ></a>
-      </div>
-    </footer>
+
+    <div class="container mt-5">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-between
+          align-items-center
+          py-3
+          my-4
+          border-top
+        "
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <img src="/img/CA.png" width="30" height="30" />
+          </a>
+          <span class="text-muted">&copy; 2021 Callista Anderson</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"><i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
