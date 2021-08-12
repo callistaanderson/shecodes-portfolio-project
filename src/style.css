@@ -36,9 +36,19 @@ p {
   opacity: 70%;
   font-size: 16px;
 }
+.shecodes-link {
+  color: var(--primary-color);
+}
+.shecodes-link:hover {
+  color: var(--accent-color);
+}
 .main-btn {
   padding: 18px 30px;
   background-color: var(--accent-color);
+}
+.main-btn:hover {
+  background-color: var(--bkgrd-accent-color);
+  transition: all 1s ease-in-out;
 }
 .contact-btn {
   color: var(--primary-color);
