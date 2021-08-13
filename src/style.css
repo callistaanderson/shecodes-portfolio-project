@@ -53,12 +53,20 @@ p {
 .contact-btn {
   color: var(--primary-color);
   padding: 10px 15px;
+  border: none;
   border-radius: 8px;
   background-color: var(--bkgrd-color);
   box-shadow: 5px 5px 10px 0 rgba(174, 174, 192, 0.4),
     -5px -5px 30px 0 rgba(255, 255, 255, 1),
     inset -5px -5px 10px 0 rgba(174, 174, 192, 0.25),
     inset 5px 5px 10px 0 rgba(255, 255, 255, 1);
+}
+.contact-btn:hover {
+  box-shadow: 5px 5px 10px 0 rgba(129, 129, 143, 0.4),
+    -5px -5px 30px 0 rgba(255, 255, 255, 1),
+    inset -5px -5px 10px 0 rgba(129, 129, 143, 0.4),
+    inset 5px 5px 10px 0 rgba(255, 255, 255, 1);
+  transition: all 1s ease-in-out;
 }
 @media (max-width: 768px) {
   h1 {
@@ -70,14 +78,5 @@ p {
   }
   .project-img {
     display: none;
-  }
-  .contact-icons {
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 768px) {
-  .contact-icons {
-    display: inline-flex;
-    flex-direction: column;
   }
 }
